@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <link rel="stylesheet" href="final.css">
+        <title>Carmelo</title>
+    </head>
+    <body>
+        <div id="wrapper">
+        <header><h1>This is Carmelo</h1></header>
+        <nav>
+            <li><a href="index.html"><strong>Home</strong></a></li>
+            <li><a href="favorites.html"><strong>Favorites</strong></a></li>
+            <li><a href="forum.html"><strong>Forum</strong></a></li>
+        </nav>
+        <main>
+            <h2>Getting to Know You!</h2>
+            <h3>Required fields are marked with an asterik * </h3>
+            <form method="post" action="http://webdevbasics.net/scripts/yoga.php">
+                <label for="myName">* Name:</label>
+                <input type="text" name="myName" id="myName" required>
+                <label for="myAge">* Age Range:</label>
+                <input type="number" name="myAge" id="myAge" required>
+                <label for="favColor">Favorite Color :</label>
+                <input type="text" name="favColor" id="favColor">
+                <label for="favGame">Favorite Video Game:</label>
+                <input type="text" name="favGame" id="favGame" list="options" required>
+            <datalist id="options">
+                <option>Minecraft</option>
+                <option>Roblox</option>
+                <option>Dead by Daylight</option>
+                <option>Rec Room</option>
+                <option>Fortnite</option>
+            </datalist>
+                <label for="myComments">* Comments:</label>
+                <textarea name="myComments" id="myComments" rows="2" cols="20" required></textarea>
+                <br>
+                <input type="submit" value="Send Now">
+            </form>
+    <footer>
+         <div>
+            <p><em>Copyright &copy; 2016 Carmelo</em></p>
+            <a href="emailto:yourfirstname@yourlastname.com">emilee@montijo.com</a><br>
+            <a href="privacypolicy.html"><strong>Privacy Policy</strong></a>
+        </div>
+    </footer>
+        </main>
+        </div>
+    </body>
+</html>
